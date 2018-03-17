@@ -1,0 +1,36 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["eslint:recommended", "prettier", "prettier/react"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "allowImportExportEverywhere": false,
+        "codeFrame": false
+
+    },
+    "plugins": [
+        "prettier", "flowtype"
+    ],
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "rules": {
+        "prettier/prettier": ["error",
+            {
+                "printWidth": 100,
+                "parser": "flow",
+                "useTabs": false,
+                "singleQuote": true,
+                "semi": false
+            }
+        ],
+        "no-console": 0,
+        "settings": {
+            "flowtype": {
+                "onlyFilesWithFlowAnnotation": false
+            }
+        }
+    }
+}

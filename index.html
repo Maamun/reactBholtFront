@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React V3</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="node_modules/react/dist/react.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.js"></script>
+    <script>
+    const app = document.querySelector('#app');
+    const ce = React.createElement
+    const myTitle = function (props) {
+        return ce('h2', {style: {
+            color: props.color
+        }}, props.title)
+    }
+const MyApp = function () {
+    return ce('div', null, [
+        ce(myTitle, {
+            title: 'Lost',
+            color: 'MEDIUMSPRINGGREEN'
+        }),
+        ce(myTitle, {
+            title: "Prison Break",
+            color: 'DEEPPINK'
+        }),
+        ce(myTitle, {
+            title: 'Game of Thrones',
+            color: 'MEDIUMPURPLE'
+        })
+    ])
+}
+
+ReactDOM.render(ce(MyApp),app)
+    </script>
+</body>
+</html>
