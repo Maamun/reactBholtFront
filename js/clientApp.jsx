@@ -1,20 +1,36 @@
 import React from 'react'
 import { render } from 'react-dom'
-const ce = React.createElement
+const app = document.querySelector('#app')
 
 const MyTitle = function(props) {
-   return ce('div', null, ce('h1', { style: { color: props.color } }, props.title))
-}
+   const style = { color: props.color }
 
-const MyFirstComponent = function() {
-   return ce(
-      'div',
-      { id: 'my-first-component' },
-      ce(MyTitle, { title: 'Game of Thrones', color: 'FUCHSIA' }),
-      ce(MyTitle, { title: 'Breaking Bad', color: 'LIGHTCORAL' }),
-      ce(MyTitle, { title: 'Lost', color: 'MEDIUMSPRINGGREEN' }),
-      ce(MyTitle, { title: 'Silicon Valley', color: 'MEDIUMSLATEBLUE' })
+   return (
+      /*  Pre-babel 
+       React.createElement('h1', null, props.title)
+       
+       */
+
+      //Post-babel
+      <h1 style={style}>{props.title}</h1>
    )
 }
 
-render(ce(MyFirstComponent), document.getElementById('app'))
+const MyFirstComponent = function() {
+   return (
+      <div id="my-first-component">
+         <MyTitle title="Game of Thrones" color="FUCHSIA" />
+         <MyTitle title="Breaking Bad" color="LIGHTCORAL" />
+
+         <MyTitle title="Lost" color="MEDIUMSPRINGGREEN" />
+
+         <MyTitle title="Silicon Valley" color="MEDIUMSLATEBLUE" />
+
+         {/* ce(MyTitle, { title: 'Silicon Valley', color: 'MEDIUMSLATEBLUE' }) 
+         without JSX
+         */}
+      </div>
+   )
+}
+
+render(<MyFirstComponent />, app)
