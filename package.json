@@ -2,9 +2,9 @@
   "scripts": {
     "api": "node ratingsAPI.js",
     "lint": "eslint **/*.{js,jsx}",
-    "clean": "rimraf ./public/",
+    "clean": "rimraf ./public/*.{js,jsx}",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack-dev-server"
   },
   "dependencies": {
     "axios": "0.16.1",
