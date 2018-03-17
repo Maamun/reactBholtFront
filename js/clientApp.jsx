@@ -1,31 +1,20 @@
-const app = document.querySelector('#app')
+import React from 'react'
+import { render } from 'react-dom'
 const ce = React.createElement
-const myTitle = function(props) {
-  return ce(
-    'h2',
-    {
-      style: {
-        color: props.color
-      }
-    },
-    props.title
-  )
-}
-const MyApp = function() {
-  return ce('div', null, [
-    ce(myTitle, {
-      title: 'Lost',
-      color: 'MEDIUMSPRINGGREEN'
-    }),
-    ce(myTitle, {
-      title: 'Prison Break',
-      color: 'DEEPPINK'
-    }),
-    ce(myTitle, {
-      title: 'Game of Thrones',
-      color: 'MEDIUMPURPLE'
-    })
-  ])
+
+const MyTitle = function(props) {
+  return ce('div', null, ce('h1', { style: { color: props.color } }, props.title))
 }
 
-ReactDOM.render(ce(MyApp), app)
+const MyFirstComponent = function() {
+  return ce(
+    'div',
+    { id: 'my-first-component' },
+    ce(MyTitle, { title: 'Game of Thrones', color: 'YellowGreen' }),
+    ce(MyTitle, { title: 'Stranger Things', color: 'GreenYellow' }),
+    ce(MyTitle, { title: 'Rick and Morty', color: 'LimeGreen' }),
+    ce(MyTitle, { title: 'Silicon Valley', color: 'peru' })
+  )
+}
+
+render(ce(MyFirstComponent), document.getElementById('app'))

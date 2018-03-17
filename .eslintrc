@@ -4,6 +4,9 @@
     "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        },
         "allowImportExportEverywhere": false,
         "codeFrame": false
 
@@ -26,11 +29,6 @@
                 "semi": false
             }
         ],
-        "no-console": 0,
-        "settings": {
-            "flowtype": {
-                "onlyFilesWithFlowAnnotation": false
-            }
-        }
+        "no-console": 0
     }
 }
