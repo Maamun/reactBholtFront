@@ -1,42 +1,22 @@
 {
-    "parser": "babel-eslint",
     "extends": [
-
-        "eslint:recommended",
+        "airbnb",
         "prettier",
-        "prettier/react",
-        "plugin:react/recommended"
-
+        "prettier/react"
+    ],
+    "plugins": [
+        "prettier"
     ],
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 2016,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
         }
-
     },
-    "plugins": [
-
-        "prettier"
-    ],
     "env": {
-        "node": true,
+        "es6": true,
         "browser": true,
-        "es6": true
-    },
-    "rules": {
-
-        "prettier/prettier": ["error",
-            {
-                "printWidth": 100,
-                "parser": "flow",
-                "useTabs": false,
-                "singleQuote": true,
-                "semi": false,
-                "tabWidth": 3
-            }
-        ],
-        "no-console": 0
+        "node": true
     }
 }

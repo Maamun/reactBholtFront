@@ -1,7 +1,7 @@
 {
   "scripts": {
     "api": "node ratingsAPI.js",
-    "lint": "eslint **/*.{js,jsx} --quiet",
+    "lint": "eslint **/*.{js,jsx,json}",
     "clean": "rimraf ./public/*.{js,jsx}",
     "build": "webpack",
     "dev": "webpack-dev-server",
@@ -50,6 +50,7 @@
     "eslint-plugin-flow": "2.29.1",
     "eslint-plugin-flowtype": "2.33.0",
     "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-prettier": "2.6.0",
     "eslint-plugin-react": "7.0.1",
     "flow-bin": "0.47.0",
