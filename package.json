@@ -4,7 +4,8 @@
     "lint": "eslint **/*.{js,jsx}",
     "clean": "rimraf ./public/*.{js,jsx}",
     "build": "webpack",
-    "watch": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "axios": "0.16.1",
