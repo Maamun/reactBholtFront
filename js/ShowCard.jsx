@@ -1,16 +1,30 @@
 import React from 'react'
 import { string } from 'prop-types'
+import styled from 'styled-components'
+const color = '#666'
+const Wrapper = styled.div`
+width: 32%;
+border: 5px solid ${color};
+border-radius: 4px;
+padding-right: 10px;
+overflow: hidden;
+`
+const Img = styled.img`
+width: 46%;
+float: left;
+margin-right: 10px;
+
+`
 const ShowCard = props => (
-   <div className="show-card">
-      <img src={`/public/img/posters/${props.poster}`} alt={`${props.title} Show Card`} />
+   <Wrapper>
+      <Img src={`/public/img/posters/${props.poster}`} alt={`${props.title} Show Card`} />
       <div>
          <h2>{props.title}</h2>
          <h3>{props.year}</h3>
          <p>{props.description}</p>
          <p>{props.foo}</p>
-
       </div>
-   </div>
+   </Wrapper>
 )
 ShowCard.defaultProps = {
    foo: 'stuff'
