@@ -1,21 +1,21 @@
 const path = require('path')
+
 module.exports = {
    context: __dirname,
-   entry: './js/clientApp',
+   entry: './js/ClientApp.jsx',
    devtool: 'cheap-eval-source-map',
    output: {
       path: path.join(__dirname, 'public'),
-      filename: 'bundle.js',
-      publicPath: '/assets/'
-   },
-   resolve: {
-      extensions: ['.js', '.jsx', ',json']
+      filename: 'bundle.js'
    },
    devServer: {
       publicPath: '/public/',
+      historyApiFallback: true,
       port: 2110,
-      open: true,
-      historyApiFallback: true
+      open: true
+   },
+   resolve: {
+      extensions: ['.js', '.jsx', '.json']
    },
    stats: {
       colors: true,
@@ -26,12 +26,12 @@ module.exports = {
       rules: [
          {
             enforce: 'pre',
-            test: /\.jsx?/,
+            test: /\.jsx?$/,
             loader: 'eslint-loader',
             exclude: /node_modules/
          },
          {
-            test: /\.jsx?/,
+            test: /\.jsx?$/,
             loader: 'babel-loader'
          }
       ]

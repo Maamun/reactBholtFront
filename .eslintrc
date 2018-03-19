@@ -1,22 +1,42 @@
 {
-    "extends": [
-        "airbnb",
-        "prettier",
-        "prettier/react"
-    ],
-    "plugins": [
-        "prettier"
-    ],
-    "parserOptions": {
-        "ecmaVersion": 2016,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
-    "env": {
-        "es6": true,
-        "browser": true,
-        "node": true
-    }
+	"parser": "babel-eslint",
+	"extends": [
+
+		"eslint:recommended",
+		"prettier",
+		"prettier/react",
+		"plugin:react/recommended"
+
+	],
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+
+	},
+	"plugins": [
+
+		"prettier"
+	],
+	"env": {
+		"node": true,
+		"browser": true,
+		"es6": true
+	},
+	"rules": {
+
+		"prettier/prettier": ["error",
+			{
+				"printWidth": 100,
+				"parser": "flow",
+				"useTabs": false,
+				"singleQuote": true,
+				"semi": false,
+				"tabWidth": 3
+			}
+		],
+		"no-console": 0
+	}
 }

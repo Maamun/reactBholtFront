@@ -8,4 +8,5 @@ const Landing = () => (
       <Link to="/search">or Browse All</Link>
    </div>
 )
+
 export default Landing
