@@ -15,9 +15,11 @@ class Search extends Component {
       })
    }
    /*
-   // by getting rid of the constructor and using the public class fields, we can get rid of the bind "...by not creating the handleClick method on the prototype and putting it on the instance."
-   1- first way to bind the right context is to bind the hander inside the constructor:
-
+   // by getting rid of the constructor and using the public class fields, 
+   we can get rid of the bind "...by not creating the handleClick method 
+   on the prototype and putting it on the instance."
+   1- first way to bind the right context is to bind the hander inside 
+   the constructor:
    class Search extends Component {
    constructor(props) {
       super(props)

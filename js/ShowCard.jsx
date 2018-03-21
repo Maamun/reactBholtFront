@@ -4,9 +4,9 @@ import styled from 'styled-components'
 
 const color = '#666'
 const Wrapper = styled.div`
-width: 32%;
+width: 30%;
 border: 5px solid ${color};
-border-radius: 4px;
+border-radius: 3px;
 padding-right: 10px;
 overflow: hidden;
 `
