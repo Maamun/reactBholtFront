@@ -1,6 +1,7 @@
 import React from 'react'
 import { string } from 'prop-types'
 import styled from 'styled-components'
+
 const color = '#666'
 const Wrapper = styled.div`
 width: 32%;
