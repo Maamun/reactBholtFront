@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders correctly 1`] = `
+<div
+  className="search"
+>
+  <header>
+    <h1>
+      React V3
+    </h1>
+    <input
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </header>
+  <div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Atlanta Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/a.jpg"
+      />
+      <div>
+        <h2>
+          Atlanta
+        </h2>
+        <h3>
+          2008–2013
+        </h3>
+        <p>
+          Two cousins, with different views on art versus commerce, on their way up through the Atlanta rap scene; "Earnest 'Earn' Marks," an ambitious college drop-out and his estranged cousin, who suddenly becomes a star.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Billions Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/b.jpg"
+      />
+      <div>
+        <h2>
+          Billions
+        </h2>
+        <h3>
+          2016–
+        </h3>
+        <p>
+          U.S. Attorney Chuck Rhoades goes after hedge fund king, Bobby "Axe" Axelrod in a battle between two powerful New York figures.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Black Mirror Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/bm.jpg"
+      />
+      <div>
+        <h2>
+          Black Mirror
+        </h2>
+        <h3>
+          2011–
+        </h3>
+        <p>
+          A television anthology series that shows the dark side of life and technology.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Breaking Bad Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/bb.jpg"
+      />
+      <div>
+        <h2>
+          Breaking Bad
+        </h2>
+        <h3>
+          2008–2013
+        </h3>
+        <p>
+          A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Game of Thrones Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/got.jpg"
+      />
+      <div>
+        <h2>
+          Game of Thrones
+        </h2>
+        <h3>
+          2011–
+        </h3>
+        <p>
+          Nine noble families fight for control over the mythical lands of Westeros, while a forgotten race returns after being dormant for thousands of years.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Homeland Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/h.jpg"
+      />
+      <div>
+        <h2>
+          Homeland
+        </h2>
+        <h3>
+          2011–
+        </h3>
+        <p>
+          A bipolar CIA operative becomes convinced a prisoner of war has been turned by al-Qaeda and is planning to carry out a terrorist attack on American soil.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="House of Cards Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/hoc.jpg"
+      />
+      <div>
+        <h2>
+          House of Cards
+        </h2>
+        <h3>
+          2013–
+        </h3>
+        <p>
+          A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Master of None Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/mon.jpg"
+      />
+      <div>
+        <h2>
+          Master of None
+        </h2>
+        <h3>
+          2015–
+        </h3>
+        <p>
+          The personal and professional life of Dev, a 30-year-old actor in New York.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Narcos Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/n.jpg"
+      />
+      <div>
+        <h2>
+          Narcos
+        </h2>
+        <h3>
+          2015–
+        </h3>
+        <p>
+          A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Orange Is the New Black Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/oitnb.jpg"
+      />
+      <div>
+        <h2>
+          Orange Is the New Black
+        </h2>
+        <h3>
+          2013–
+        </h3>
+        <p>
+          The story of Piper Chapman, a woman in her thirties who is sentenced to fifteen months in prison after being convicted of a decade-old crime of transporting money for her drug-dealing girlfriend.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Silicon Valley Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/sv.jpg"
+      />
+      <div>
+        <h2>
+          Silicon Valley
+        </h2>
+        <h3>
+          2014–
+        </h3>
+        <p>
+          Follows the struggle of Richard Hendricks, a silicon valley engineer trying to build his own company called Pied Piper.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Stranger Things Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/st.jpg"
+      />
+      <div>
+        <h2>
+          Stranger Things
+        </h2>
+        <h3>
+          2016–
+        </h3>
+        <p>
+          When a young boy disappears, his mother, a police chief, and his friends must confront terrifying forces in order to get him back.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="The Americans Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/ta.jpg"
+      />
+      <div>
+        <h2>
+          The Americans
+        </h2>
+        <h3>
+          2013–
+        </h3>
+        <p>
+          Two Soviet intelligence agents pose as a married couple to spy on the American government.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Veep Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/v.jpg"
+      />
+      <div>
+        <h2>
+          Veep
+        </h2>
+        <h3>
+          2012–
+        </h3>
+        <p>
+          Former Senator Selina Meyer finds that being Vice President of the United States is nothing like she hoped and everything that everyone ever warned her about.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa eacMWH"
+    >
+      <img
+        alt="Westworld Show Card"
+        className="sc-bwzfXH hIpLQH"
+        src="/public/img/posters/ww.jpg"
+      />
+      <div>
+        <h2>
+          Westworld
+        </h2>
+        <h3>
+          2016–
+        </h3>
+        <p>
+          Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite, no matter how noble or depraved, can be indulged without consequence.
+        </p>
+        <p>
+          stuff
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
