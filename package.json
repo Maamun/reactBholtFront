@@ -5,7 +5,12 @@
     "clean": "rimrade .f ./public/*.{js,jsx}",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "test": "jest",
+    "test:update": "jest -u"
+  },
+  "jest": {
+    "snapshotSerializers": ["jest-serializer-enzyme"]
   },
   "dependencies": {
     "axios": "0.16.1",
